@@ -622,8 +622,8 @@ img {
     width: 50%; }
 
   .artist-header {
-    padding-left: 10%;
-    padding-right: 10%; }
+    padding-left: 0;
+    padding-right: 0; }
 
   .grants-text p {
     padding: 0 250px 40px 250px; }
@@ -642,6 +642,9 @@ img {
     margin-top: 50px; }
 
   .social-links-icons {
-    margin-left: 75%; } }
+    margin-left: 75%; }
+
+  .artist-header {
+    width: 90%; } }
 
 /*# sourceMappingURL=styles.css.map */

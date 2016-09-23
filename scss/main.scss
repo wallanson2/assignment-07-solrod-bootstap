@@ -272,6 +272,10 @@ img {
   .team-background {
     display: none;
   }
+  // .artist-header {
+  //   margin-left: 20%;
+  //   margin-right: 20%;
+  // }
 }
 @include media-query($tablet){
   .bars-icon-div {
@@ -308,8 +312,8 @@ img {
     width: 50%;
   }
   .artist-header {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 0;
+    padding-right: 0;
   }
   .grants-text p {
     padding: 0 250px 40px 250px;
@@ -331,5 +335,8 @@ img {
 
   .social-links-icons {
     margin-left: 75%;
+  }
+  .artist-header {
+    width: 90%;
   }
 }
