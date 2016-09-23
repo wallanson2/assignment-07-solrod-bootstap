@@ -39,13 +39,17 @@ img {
     display: none;
   }
 }
-.bars-icon-div{
-  position: relative;
+.bars-icon div{
+  position: fixed;
 }
 
 .bars-icon i {
   color: white;
   padding-top: 4px;
+}
+.bars-icon i:hover {
+  color: red;
+  cursor: pointer;
 }
 .bar-icon-box {
   position: absolute;
@@ -55,6 +59,7 @@ img {
   top: 10;
   left: 20;
 }
+
 .navbar-links-left {
   padding-left: 30px;
 
@@ -62,7 +67,7 @@ img {
 .navbar-links-right {
   padding-right: 30px;
 }
-.navlinks  a {
+.navlinks a {
   cursor: pointer;
 }
 
@@ -243,6 +248,15 @@ img {
 //Begin social links
 .social-links {
   background: white;
+  width: 100%;
+  height: 90px;
+
+}
+.social-links-icons {
+  margin-left: 5%;
+}
+.social-links-icons a{
+  visibility: visible;
 }
 .social-links img {
   height: 30px;
@@ -280,8 +294,11 @@ img {
   .grants-text p {
     padding: 0 100px 40px 100px;
   }
-}
 
+  .social-links-icons {
+    margin-left: 35%;
+  }
+}
 
 
 @include media-query($desktop){
@@ -308,5 +325,9 @@ img {
     height: 400px;
     width: 100%;
     margin-top: 50px;
+  }
+
+  .social-links-icons {
+    margin-left: 75%;
   }
 }

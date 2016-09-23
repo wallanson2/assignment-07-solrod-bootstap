@@ -393,12 +393,16 @@ img {
     width: 40px;
     display: none; }
 
-.bars-icon-div {
-  position: relative; }
+.bars-icon div {
+  position: fixed; }
 
 .bars-icon i {
   color: white;
   padding-top: 4px; }
+
+.bars-icon i:hover {
+  color: red;
+  cursor: pointer; }
 
 .bar-icon-box {
   position: absolute;
@@ -567,7 +571,15 @@ img {
   cursor: pointer; }
 
 .social-links {
-  background: white; }
+  background: white;
+  width: 100%;
+  height: 90px; }
+
+.social-links-icons {
+  margin-left: 5%; }
+
+.social-links-icons a {
+  visibility: visible; }
 
 .social-links img {
   height: 30px;
@@ -600,7 +612,10 @@ img {
     width: 90%; }
 
   .grants-text p {
-    padding: 0 100px 40px 100px; } }
+    padding: 0 100px 40px 100px; }
+
+  .social-links-icons {
+    margin-left: 35%; } }
 @media screen and (min-width: 1024px) {
   .join-our-team {
     width: 50%; }
@@ -623,6 +638,9 @@ img {
   .small-but-mighty img {
     height: 400px;
     width: 100%;
-    margin-top: 50px; } }
+    margin-top: 50px; }
+
+  .social-links-icons {
+    margin-left: 75%; } }
 
 /*# sourceMappingURL=styles.css.map */
